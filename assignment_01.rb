@@ -49,6 +49,6 @@ puts h
 
 # 11
 # 12 where are the instructions?
-# 13 idk
+# 13 idk any advice?
 # 14 yes, yes
 # 15 http://www.ruby-doc.org/core-2.0/
