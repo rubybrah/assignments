@@ -1,4 +1,4 @@
-def cyphder(an_array)
+def cypher(an_array)
 
   na = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
   ca = na.rotate(2)
@@ -16,6 +16,7 @@ def cyphder(an_array)
 end
 
 #START of my program
+puts "Gib einen einfachen Satz, ohne Sonderzeichen und Satzzeichen ein."
 eingabe = gets.chomp
 length = eingabe.length
 zwischenwort = eingabe.upcase.split(//).reverse!
@@ -26,4 +27,4 @@ make_it_an_array = []
   make_it_an_array << zwischenwort.pop
 end
 
-cyphder(make_it_an_array)
+cypher(make_it_an_array)
